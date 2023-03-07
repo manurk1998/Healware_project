@@ -1,5 +1,6 @@
 # Healware_project
 A Centralized Patient Monitoring And Decision Making System
+
 GENERAL BACKGROUND
 Continuous monitoring of the health parameters of patients is one of the major problems faced by the hospital authorities nowadays. Monitoring should be accurate, precise and carried out in real time. Current patient monitoring systems consist of single patient monitoring systems, where sensors are hardwired to a PC next to bed. Human intervention is also needed frequently. That is, a nurse will have to frequently monitor the patient’s health parameters. Employing a multiple patient monitoring system as oppose to a single patient monitoring system per patient, would be more cost and power efficient, and would allow the healthcare professionals to monitor many patients simultaneously without being in the same location. So a system that can overcome the above mentioned problems will really benefit developing countries like India. 
 
