@@ -1,0 +1,26 @@
+import pyrebase
+from heartbeat_streaming import heartbeat_streaming
+config = {apiKey: "AIzaSyCs1mHWymQb_CHTTbs3NNA78dVy5kUF--4",
+    authDomain: "healware2-0.firebaseapp.com",
+    databaseURL: "https://healware2-0-default-rtdb.firebaseio.com",
+    projectId: "healware2-0",
+    storageBucket: "healware2-0.appspot.com",
+    messagingSenderId: "782817765024",
+    appId: "1:782817765024:web:45dfc0dabddffbcb5acbc5",
+    measurementId: "G-NGECBS0DLF"apiKey: "AIzaSyCs1mHWymQb_CHTTbs3NNA78dVy5kUF--4",
+    authDomain: "healware2-0.firebaseapp.com",
+    databaseURL: "https://healware2-0-default-rtdb.firebaseio.com",
+    projectId: "healware2-0",
+    storageBucket: "healware2-0.appspot.com",
+    messagingSenderId: "782817765024",
+    appId: "1:782817765024:web:45dfc0dabddffbcb5acbc5",
+    measurementId: "G-NGECBS0DLF"
+};
+firebase = pyrebase.initialize_app(config)
+storage = firebase.storage()
+database = firebase.database()
+a = heartbeat()
+print (a)
+database.child("DB object name")
+data = {"key1": a}
+database.set(data)

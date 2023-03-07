@@ -1,0 +1,26 @@
+//initializes/defines the output pin of the LM35 temperature sensor
+
+#define INPUT_PIN  A0 // use analog Read pin-A0.
+
+//
+
+void setup()
+{
+	Serial.begin(115200);
+        Serial.println("LM35 Reading Start");
+}
+
+//main loop
+void loop()
+{
+	int rawvoltage = analogRead(INPUT_PIN);
+	float millivolts = (rawvoltage/1024.0) * 5000; // convert raw value in to voltage.
+	float celsius= millivolts/10;
+	Serial.print(celsius);
+	Serial.print(" degrees Celsius, "); // print value in degrees Celsius
+
+	Serial.print((celsius * 9)/5 + 32);
+	Serial.println(" degrees Fahrenheit"); //  // print value in degrees Fahrenheit
+
+	delay(1000);
+}

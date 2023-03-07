@@ -1,0 +1,3 @@
+192.168.43.94 ipv4 address lap
+Status	Name	IP	Radmin	Http	Https	Ftp	Rdp	Shared folders	Shared printers	NetBIOS group	Manufacturer	MAC address	User	Date	Comments
+On	raspberrypi	192.168.43.135									Raspberry Pi Foundation	B8:27:EB:5D:C7:88			
